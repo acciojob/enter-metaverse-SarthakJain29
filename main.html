@@ -7,8 +7,13 @@
 </head>
 
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
+	<p id="status">Enter the Metaverse</p>
+	<button id="enterBtn" onclick="enter()">Enter</button>
+    <script>
+		function enter(){
+			let p = document.querySelector("#status");
+			p.innerHTML = "<h1>Entered Metaverse</h1>";
+		}
 </script>
 
 </body>
